@@ -73,27 +73,40 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-PM_START_TEXT = """
-Hello I am Nobara, Be happy, boys. I'm the woman in your group.
-I am a group management bot which can help you to manage group easy You can see my cmds in help button[.](https://telegra.ph/file/3d80f231383412830f80a.jpg)
+PM_START_TEXT = 
+""" Konichiwa {}.
+*ʙᴏᴋᴜ ᴡᴀ ʜᴏʀɪ-ᴋʏᴏᴜᴋᴏ ɴᴏ ᴋᴀʀᴇꜱʜɪ ᴅᴇꜱᴜ
+━━━━━━━━━━━━━━━━━━━━━
+ʙᴏᴋᴜ ɴᴏ [Iȥυɱι Mιყαɱυɾα](http://t.me/Izumi_SuperBot) ,
+ᴀɴɪᴍᴇ-ᴛʜᴇᴍᴇ ʙᴀꜱᴇᴅ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ᴀɴᴅ ʙᴏʏꜰʀɪᴇɴᴅ ᴏꜰ ʜᴏʀɪ ᴋʏᴏᴜᴋᴏ ✨
+┏━━━━━━━━━━━━━━━━━━━━
+× *ᴀᴡᴀᴋᴇ ꜱɪɴᴄᴇ:* {}
+× {} *ᴛᴇᴀᴍᴍᴀᴛᴇꜱ. ᴀᴄʀᴏꜱꜱ* {} *ɢʀᴏᴜᴘ ᴄʜᴀᴛꜱ.*
+┗━━━━━━━━━━━━━━━━━━━━ 
+[ꜱᴜᴘᴘᴏʀᴛ](https://t.me/izumi_supersupport) | [ᴜᴘᴅᴀᴛᴇꜱ](https://t.me/izumi_superupdates)
+━━━━━━━━━━━━━━━━━━━━━
+
+ᴘᴏᴡᴇʀᴇᴅ ʙʏ :  [V๏ɪ፝֟𝔡 ɴᴇᴛᴡᴏʀᴋ](https://t.me/voidxnetwork)
+
+*ᴏᴘᴇɴ /ʜᴇʟᴘ ᴛᴏ ᴋɴᴏᴡ ᴡʜᴀᴛ ɪ ᴀᴍ ᴄᴀᴘᴀʙʟᴇ ᴏꜰ !*[.](https://telegra.ph/file/3d80f231383412830f80a.jpg)
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text= "Add Nobara", url="t.me/NobarasanRobot?startgroup=true"),
+            text= "ᵢₙᵥᵢₜₑ ᵢzᵤₘᵢ ₜₒ Yₒᵤᵣ Gᵣₒᵤₚ", url="t.me/NobarasanRobot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="COMMANDS", callback_data="help_back"),
+        InlineKeyboardButton(text="🄲🄰🄿🄰🄱🄻🄸🅃🄸🄴🅂", callback_data="help_back"),
     ],
     [
         InlineKeyboardButton(
-            text="UPDATES CHANNEL", url="https://t.me/nobara_kugisaki_updates"),
+            text="🛡 Updates ⛩ ", url="https://t.me/nobara_kugisaki_updates"),
         InlineKeyboardButton(
-            text="👥SUPPORT👥", url="https://t.me/supprt_sora"),
+            text="⛩ SUPPORT 🛡", url="https://t.me/supprt_sora"),
     ],
     [  
-        InlineKeyboardButton(text="Our Troupe", url="https://t.me/The_phantom_troupe"),
+        InlineKeyboardButton(text="【V๏ɪ፝֟𝔡】Network", url="https://t.me/The_phantom_troupe"),
     ], 
     
 ]
@@ -101,14 +114,14 @@ buttons = [
 
 
 HELP_STRINGS = """
-*Nobara has many special features in it*
-*CHECK ALL BUTTON BELOW TO EXPLORE EVERY COMMANDS OF Nobara*
-🔥 *All commands can either be used with* `/` *or* `!`.
-🔥 *If you facing any issue or find any bugs in any command then you can report it in @supprt_sora* [.](https://telegra.ph/file/4e7b49c21f41f0890c65d.jpg)
+*I have many special features in myself to support and manage your Group Chat*
+*CHECK ALL BUTTON BELOW TO EXPLORE EVERY COMMANDS OF ME*
+🔥 *All commands can either be used with the command handlers `/` *or* `!`.
+🔥 *If you facing any issue or find any bugs in any command then you can report it in @Izumi_SuperSupport* [.](https://telegra.ph/file/4e7b49c21f41f0890c65d.jpg)
 """
 
 
-DONATE_STRING = """I Dont need your Money Coz I am already RICH"""
+DONATE_STRING = """No Need Save It ,So You Can Treat Your Date """
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -218,7 +231,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_text(
-            "I'm awake already!\n<b>Haven't slept since:</b> <code>{}</code>".format(
+            "I'm Working Since {} , \nServing The Author Of My Story : [Izumi Tachibana](https://t.me/izumitachibana_08)</b> <code>{}</code>".format(
                 uptime
             ),
             parse_mode=ParseMode.HTML,
@@ -353,14 +366,14 @@ def Masha_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "masha_":
         query.message.edit_text(
-            text=""" ℹ️ I'm * Yato *, a powerful group management bot built to help you manage your group easily.
+            text=""" ℹ️ I'm * Izumi Miyamura *, a powerful group management bot built to help you manage your group easily.
                  ❍ I can restrict users.
                  ❍ I can greet users with customizable welcome messages and even set group's rules.
                  ❍ I have an advanced anti-flood system.
                  ❍ I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc.
                  ❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
                  ❍ I check for admins' permissions before executing any command and more stuffs
-                 \n_Yato licensed under the GNU General Public License v3.0_
+                 \n_Izumi licensed under the GNU General Public License v3.0_
                  Here is the [Bot-protocol](https://t.me/BotProtocol).
                  If you have any question about Yato, let us know at @Yato_support.""",
             parse_mode=ParseMode.MARKDOWN,
@@ -684,7 +697,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "Nobara Kugisaki At Your Service")
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "Miyamura Izumi is At Your Service")
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!"
