@@ -77,7 +77,7 @@ PM_START_TEXT =
 """ Konichiwa {}.
 *ʙᴏᴋᴜ ᴡᴀ ʜᴏʀɪ-ᴋʏᴏᴜᴋᴏ ɴᴏ ᴋᴀʀᴇꜱʜɪ ᴅᴇꜱᴜ
 ━━━━━━━━━━━━━━━━━━━━━
-ʙᴏᴋᴜ ɴᴏ [Iȥυɱι Mιყαɱυɾα](http://t.me/Izumi_SuperBot) ,
+ʙᴏᴋᴜ ɴᴏ [Iȥυɱι Mιყαɱυɾα](http://t.me/MiyamuraXProBot) ,
 ᴀɴɪᴍᴇ-ᴛʜᴇᴍᴇ ʙᴀꜱᴇᴅ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ᴀɴᴅ ʙᴏʏꜰʀɪᴇɴᴅ ᴏꜰ ʜᴏʀɪ ᴋʏᴏᴜᴋᴏ ✨
 ┏━━━━━━━━━━━━━━━━━━━━
 × *ᴀᴡᴀᴋᴇ ꜱɪɴᴄᴇ:* {}
@@ -88,25 +88,25 @@ PM_START_TEXT =
 
 ᴘᴏᴡᴇʀᴇᴅ ʙʏ :  [V๏ɪ፝֟𝔡 ɴᴇᴛᴡᴏʀᴋ](https://t.me/voidxnetwork)
 
-*ᴏᴘᴇɴ /ʜᴇʟᴘ ᴛᴏ ᴋɴᴏᴡ ᴡʜᴀᴛ ɪ ᴀᴍ ᴄᴀᴘᴀʙʟᴇ ᴏꜰ !*[.](https://telegra.ph/file/3d80f231383412830f80a.jpg)
+*ᴏᴘᴇɴ /ʜᴇʟᴘ ᴛᴏ ᴋɴᴏᴡ ᴡʜᴀᴛ ɪ ᴀᴍ ᴄᴀᴘᴀʙʟᴇ ᴏꜰ !*[.](https://telegra.ph/file/a480ee670f5c08e167781.mp4)
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text= "ᵢₙᵥᵢₜₑ ᵢzᵤₘᵢ ₜₒ Yₒᵤᵣ Gᵣₒᵤₚ", url="t.me/NobarasanRobot?startgroup=true"),
+            text= "ᵢₙᵥᵢₜₑ ᵢzᵤₘᵢ ₜₒ Yₒᵤᵣ Gᵣₒᵤₚ", url="t.me/MiyamuraXprobot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="🄲🄰🄿🄰🄱🄻🄸🅃🄸🄴🅂", callback_data="help_back"),
+        InlineKeyboardButton(text="Check Bot Capblities", callback_data="help_back"),
     ],
     [
         InlineKeyboardButton(
-            text="🛡 Updates ⛩ ", url="https://t.me/nobara_kugisaki_updates"),
+            text="🛡 Updates ⛩ ", url="https://t.me/izumixsupport"),
         InlineKeyboardButton(
-            text="⛩ SUPPORT 🛡", url="https://t.me/supprt_sora"),
+            text="⛩ SUPPORT 🛡", url="https://t.me/izumixsupport"),
     ],
     [  
-        InlineKeyboardButton(text="【V๏ɪ፝֟𝔡】Network", url="https://t.me/The_phantom_troupe"),
+        InlineKeyboardButton(text="【V๏ɪ፝֟𝔡】Network", url="https://t.me/VoidXNetwork"),
     ], 
     
 ]
